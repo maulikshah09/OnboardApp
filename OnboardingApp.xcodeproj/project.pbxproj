@@ -12,6 +12,8 @@
 		4D082E402D4FF5230078DB5B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D082E382D4FF5230078DB5B /* Preview Assets.xcassets */; };
 		4D082E412D4FF5230078DB5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D082E3A2D4FF5230078DB5B /* Assets.xcassets */; };
 		4D082E432D4FF53A0078DB5B /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D082E422D4FF53A0078DB5B /* IntroView.swift */; };
+		4D082E452D4FFAE20078DB5B /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D082E442D4FFAE20078DB5B /* OnboardingView.swift */; };
+		4D082E472D500FC40078DB5B /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D082E462D500FC40078DB5B /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		4D082E3B2D4FF5230078DB5B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4D082E3C2D4FF5230078DB5B /* OnboardingAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingAppApp.swift; sourceTree = "<group>"; };
 		4D082E422D4FF53A0078DB5B /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
+		4D082E442D4FFAE20078DB5B /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		4D082E462D500FC40078DB5B /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,10 +66,12 @@
 			isa = PBXGroup;
 			children = (
 				4D082E392D4FF5230078DB5B /* Preview Content */,
+				4D082E3C2D4FF5230078DB5B /* OnboardingAppApp.swift */,
 				4D082E3A2D4FF5230078DB5B /* Assets.xcassets */,
 				4D082E3B2D4FF5230078DB5B /* ContentView.swift */,
-				4D082E3C2D4FF5230078DB5B /* OnboardingAppApp.swift */,
 				4D082E422D4FF53A0078DB5B /* IntroView.swift */,
+				4D082E462D500FC40078DB5B /* ProfileView.swift */,
+				4D082E442D4FFAE20078DB5B /* OnboardingView.swift */,
 			);
 			path = OnboardingApp;
 			sourceTree = "<group>";
@@ -144,6 +150,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D082E3E2D4FF5230078DB5B /* ContentView.swift in Sources */,
+				4D082E452D4FFAE20078DB5B /* OnboardingView.swift in Sources */,
+				4D082E472D500FC40078DB5B /* ProfileView.swift in Sources */,
 				4D082E3F2D4FF5230078DB5B /* OnboardingAppApp.swift in Sources */,
 				4D082E432D4FF53A0078DB5B /* IntroView.swift in Sources */,
 			);
